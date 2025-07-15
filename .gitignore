@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Local .terraform directories
 .terraform/
 
@@ -18,11 +19,22 @@ crash.*.log
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
+=======
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform directory
+.terraform/
+
+# Ignore override files
+>>>>>>> 5bf1ff1 (Cleaned up embedded repo and added Terraform project files)
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
 
+<<<<<<< HEAD
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
 
@@ -35,3 +47,10 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+=======
+# Ignore CLI configuration
+.terraform.lock.hcl
+
+# Ignore sensitive variable files
+terraform.tfvars
+>>>>>>> 5bf1ff1 (Cleaned up embedded repo and added Terraform project files)
