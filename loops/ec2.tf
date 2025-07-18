@@ -1,5 +1,5 @@
 resource "aws_instance" "roboshop" {
-     count = 4
+    count = 4
     ami = var.ami_id
     instance_type = var.instance_type
     vpc_security_group_ids  = [aws_security_group.allow_all.id]
