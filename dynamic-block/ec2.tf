@@ -14,7 +14,7 @@ resource "aws_security_group" "allow_all" { #allow all means this is for interna
         content {
         from_port = ingress.value["from_port"]
         to_port = ingress.value["to_port"]
-         protocol = "tcp"
+         protocol = "-1"
         cidr_blocks = ["0.0.0.0/0"]
         ipv6_cidr_blocks = ["::/0"]
         }
@@ -23,7 +23,7 @@ resource "aws_security_group" "allow_all" { #allow all means this is for interna
     egress {
        from_port = var.from_port # we can give specfic ports
         to_port = var.to_port
-       protocol = "-1" # allowing all protocols like TCP,HTTP,HTTPS
+       protocol = "-1"
         cidr_blocks = ["0.0.0.0/0"]
         ipv6_cidr_blocks = ["::/0"]
     }
