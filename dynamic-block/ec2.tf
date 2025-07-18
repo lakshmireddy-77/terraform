@@ -6,8 +6,8 @@ resource "aws_instance" "roboshop" {
   
 }
 
-resource "aws_security_group" "allow_all" { #allow all means this is for internal purpose
-    name = var.sg_name # this is security gruop name , internal name
+resource "aws_security_group" "allow_all" { 
+    name = var.sg_name 
     
     dynamic "ingress" {
         for_each = var.ingress_ports
