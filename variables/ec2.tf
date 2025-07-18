@@ -1,9 +1,9 @@
 resource "aws_instance" "roboshop"{
     ami = var.ami_id
     instance_type = var.instance_type
-    vpc_security_group_ids = [aws_security_group.allow-all.id]
+    vpc_security_group_ids = [aws_security_group.allow-all-test-all.id]
 }
-resource "aws_security_group" "allow-all" {
+resource "aws_security_group" "allow-all-test" {
     name = var.sg_name
     ingress {
         from_port = var.from_port
