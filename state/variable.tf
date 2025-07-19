@@ -12,7 +12,7 @@ variable "instance_type" {
 
 variable "sg_name" {
   type = string
-  #default = "vars-files-allow-all-ec2"
+  default = "allow-all-ec2"
 }
 
 variable "from_port" {
