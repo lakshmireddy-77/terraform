@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55bc7fbe03b272a437c625027e985f64b6739003
+=======
+>>>>>>> cea92c3ce218a5c81cfcf746bd95a405f2d98cce
 # Local .terraform directories
 .terraform/
 
@@ -23,6 +26,7 @@ crash.*.log
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ignore Terraform state files
 *.tfstate
@@ -35,6 +39,8 @@ crash.*.log
 >>>>>>> 5bf1ff1 (Cleaned up embedded repo and added Terraform project files)
 =======
 >>>>>>> 55bc7fbe03b272a437c625027e985f64b6739003
+=======
+>>>>>>> cea92c3ce218a5c81cfcf746bd95a405f2d98cce
 override.tf
 override.tf.json
 *_override.tf
@@ -42,8 +48,11 @@ override.tf.json
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55bc7fbe03b272a437c625027e985f64b6739003
+=======
+>>>>>>> cea92c3ce218a5c81cfcf746bd95a405f2d98cce
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
 
@@ -57,6 +66,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ignore CLI configuration
 .terraform.lock.hcl
@@ -66,3 +76,5 @@ terraform.tfvars
 >>>>>>> 5bf1ff1 (Cleaned up embedded repo and added Terraform project files)
 =======
 >>>>>>> 55bc7fbe03b272a437c625027e985f64b6739003
+=======
+>>>>>>> cea92c3ce218a5c81cfcf746bd95a405f2d98cce
